@@ -1,0 +1,51 @@
+
+#transfer-section 
+{
+    padding: 50px;
+}
+#transfer-section .row
+{
+    display: flex;
+    justify-content: center;
+}
+#transfer-section .row:nth-child(1)
+{
+    font-weight: bolder;
+    font-size: 3vw;
+    text-shadow: 0 0 4px black;
+    color: rgb(219, 217, 217);
+    font-family: 'Courier New', Courier, monospace;
+}
+#transfer-section .row:nth-child(2) ,#transfer-section .row:nth-child(3)
+{
+    font-family:fantasy ;
+
+}
+
+#transfer-section .row:nth-child(3)
+{
+    color: rgb(0, 119, 0);
+    font-weight: bolder;
+    font-size: 5vw;
+}
+#trasfer-form 
+{
+    box-shadow: 0 0 12px black;
+    border-radius: 50px;
+    padding: 20px;
+}
+#trasfer-form .row:nth-child(1) ,#trasfer-form .row:nth-child(2)
+{
+    font-weight: unset;
+    font-size: 1.2vw;
+    text-shadow:unset;
+    color: rgb(0, 0, 0);
+    font-family: unset;
+}
+#trasfer-form .row:nth-child(3)
+{
+    
+    
+    font-family: unset;
+   
+}

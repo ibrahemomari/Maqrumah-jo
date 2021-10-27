@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet">
+  <link href="../../css/user_profile.css" rel="stylesheet">
+  <link href="../../css/UP_request.css" rel="stylesheet">
+  <link href="../../css/UP_shared_style.css" rel="stylesheet">
+
+
+</head>
+<title>student portal</title>
+
+
+
+
+<body >
+ <!-----------------------------------sidebar section ---------------------------------------------------------------------------->
+  
+ 
+<div class="d-flex " id="wrapper">
+
+  <!-- Sidebar -->
+  <div class="slider-border " id="sidebar-wrapper" >
+   
+      <div class="sidebar-heading">
+        <h5 class="slide_user_name">Ibrahem alomari</h5>
+        <span class="grant-lable">Grant: (<span id="grant-type">Military grant</span>)</span>
+    
+      </div>
+    
+
+      <div class="list-group list-group-flush">
+      
+        <a href="UPro_account_setting.html" class="list-group-item list-group-item-action" id="slider-item">Account Settings</a>
+     
+        <a href="#" class="list-group-item list-group-item-action dropdown" id="slider-item" >Services</a>
+        <div class="dropdown-container">
+          <a href="UPro_Ser_Clearance.html" class="btn ser-item1">Clearance request</a>
+          <a href="UP_ser_credit_hours.html" class="btn ser-item2">Credit hours</a>
+          <a href="Upro_cach_out.html" class="btn ser-item3">Cash Out</a>
+          <a href="UP_bills.html" class="btn ser-item2">Bills</a>
+        </div>
+     
+
+        <a href="UP_request.html" class="list-group-item list-group-item-action" id="slider-item">My requests<span id="myRequest-badge" >5</span></a>
+      
+      </div>
+    
+   
+  </div>
+  <!-- /#sidebar-wrapper -->
+   <!-- Page Content -->
+   <div id="page-content-wrapper">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+      <button class="btn btn-light navbar-toggler-icon" id="menu-toggle"></button><h6 id="hello" class="lead d-none d-sm-block">Hello,&nbsp;</h6><h6 id="nav-user-name" class="lead d-none d-sm-block"> ibrahem alomari</h6>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse nv-con" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          
+          <li class="nav-item ">
+            <a class="nav-link" href="user_profile.html">Home</a>
+          </li>
+          
+         
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-bell"><div class="txt" id="noti-count">10</div></i>
+            </a>
+              <ul class="dropdown-menu" id="noti">
+                <li class="head text-light bg-dark">
+                  <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-12">
+                      <span>Notifications</span>
+                      <a href="" class="float-right text-light btn btn-secondary">Mark all as read</a>
+                    </div>
+                  </div>
+                </li>
+                <div class="container" id="noti-container">
+              
+              </div>
+        </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="far fa-envelope"><div class="txt" id="email-count">10</div></i>
+            </a>
+              <ul class="dropdown-menu" id="noti">
+                <li class="head text-light bg-dark">
+                  <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-12">
+                      <span>Message Box</span>
+                    </div>
+                  </div>
+                </li>
+                <div class="container" id="email-container">
+                 
+
+                  
+              
+              </div>
+        </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-money-bill"><div class="txt" id="salary-count">10</div></i>
+            </a>
+              <ul class="dropdown-menu" id="noti">
+                <li class="head text-light bg-dark">
+                  <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-12">
+                      <span>Message Box</span>
+                    </div>
+                  </div>
+                </li>
+                <div class="container" id="salary-container">
+                 
+
+                  
+              
+              </div>
+        </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+              <i class="fa fa-cog" aria-hidden="true"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../control/contactUS.html">Contact Us</a>
+             
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../control/sign_in_users.html" id="log-out">Log Out</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      
+    </nav>
+
+  <!------------------  contant contianer----------------------->
+
+  <div class="container" id="request-section">
+      <div class="row">
+          REQUESTS
+      </div>
+      <div class="row">
+        <div class="form-group">
+            <input type="search" class="form-control" placeholder="Search.." onkeyup="myFunction()" id="search-fillter" >
+          </div>
+      </div>
+      <div class="row">
+        <table class="table table-hover text-nowrap" id="request-table">
+   
+            <thead>
+              <tr>
+                  <th>Date</th>
+                <th>Request Type</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+           
+            </tbody>
+          </table>
+      </div>
+
+
+
+
+  </div>
+  
+  </div>
+</div>
+
+
+  
+  <!-- Bootstrap core JavaScript -->
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <script src="../../js/UP_request.js"></script>
+  <script src="../../js/UP_shared_script.js"></script>
+  <script src="../../js_tools/notify.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+</body>
+</html>

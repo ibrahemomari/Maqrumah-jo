@@ -1,0 +1,102 @@
+#admin-account-setting
+{
+    width: 95%;
+}
+#admin-account-setting input[value]
+{
+    color: tomato;
+}
+
+#admin-account-setting .row
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#admin-account-setting .row:nth-child(1)
+
+
+.table-lable
+{
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-shadow: 0 0 4px rgb(73, 72, 72);
+    color: rgb(0, 0, 0)
+}
+
+
+#back-arrow
+{
+    font-size: 22px;
+    color: white;
+    text-shadow: 0 0 8px black;
+}
+#back-arrow:hover
+{
+    font-size: 23px;
+    color: rgb(4, 39, 49);
+    text-shadow: 0 0 8px rgb(255, 255, 255);
+}
+
+
+
+#admin-account-setting
+{
+    border: 2px solid rgba(119, 114, 114, 0.432);
+    
+    margin: 10px 20px;
+    border-radius: 20px;
+    
+}
+
+
+
+.contant-bar
+{
+    border: 1px dashed rgba(172, 172, 172, 0.438);
+    width: 70%;
+    margin:10px auto;
+}
+
+#btn-change-email , #btn-change-phone , #btn-save-email , #btn-save-phone ,#btn-cancel-email,#btn-cancel-phone
+{
+    margin-top: 1px;
+    border: none;
+    
+}
+#btn-save-email , #btn-save-phone 
+{
+    margin-left:70px;
+    visibility: hidden;
+}
+#btn-cancel-email,#btn-cancel-phone
+{
+    visibility: hidden;
+}
+
+#phone_code
+{
+    margin-top:13px ;
+}
+
+#password-change
+{
+    width: 90%;
+    margin:50px auto;
+   background-color: rgb(238, 178, 178);
+   color: rgb(255, 255, 255);
+   border-top: 4px double rgb(255, 255, 255);
+   border-bottom: 4px double rgb(255, 255, 255);
+}
+#password-change:hover
+{
+    background-color: rgb(71, 6, 6);
+}
+
+#collapse-btn-1
+{
+    width: 70%;
+    margin: auto;
+    font-weight: bolder;
+}

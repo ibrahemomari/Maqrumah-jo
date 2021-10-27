@@ -1,0 +1,44 @@
+#request-section .row
+{
+    display: flex;
+    justify-content: center;
+}
+
+#request-section .row:nth-child(1)
+{
+    font-size: 3vw;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 4px black;
+    color: rgb(90, 88, 88);
+}
+#request-section .row:nth-child(3) table
+{
+    width: 90%;
+    border: 2px solid rgb(211, 208, 208);
+}
+
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 992px) {
+    #request-section .row:nth-child(3) 
+    {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    #request-section .row:nth-child(3) 
+    {
+        width: 90%;
+    }
+ 
+}
+
+@media (max-width: 576px) {
+    #request-section .row:nth-child(3) 
+    {
+        width: 90%;
+    }
+}

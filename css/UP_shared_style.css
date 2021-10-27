@@ -1,0 +1,86 @@
+#noti-container ,#email-container ,#salary-container
+{
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+#trans-noti ,#mailBox  ,#salary 
+{
+  background-color: rgb(128, 125, 125);
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 3px solid rgba(63, 60, 55, 0.493);
+  border-radius: 20px;
+  color: rgb(5, 5, 5);
+  text-shadow: 0 0 4px  white;
+  
+}
+#mailBox ,#salary
+{
+    margin-bottom: 10px;
+}
+
+#trans-noti #trns-name
+{
+    color: rgb(102, 5, 5);
+}
+
+#trans-noti #trans-amount ,#mailBox-title ,#salary-title
+{
+    color: rgb(13, 102, 5);
+}
+#mailBox-title
+{
+    text-decoration: underline;
+}
+#trans-noti #trans-date ,#mailBox-date ,#mailBox-from ,#salary-from ,#salary-date
+{
+    position: relative;
+    top: 20px;
+    font-size: 1vw;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+#mailBox-from ,#salary-from
+{
+    float: right;
+}
+#trans-noti i ,#mailBox-icon ,#salary-icon
+{
+    color: rgb(251, 255, 4);
+    border-right:1px solid rgb(251, 255, 4) ;
+    border-left:1px solid rgb(251, 255, 4) ;
+
+    margin-right: 10px;
+    border-radius: 10px;
+}
+#mailBox-subject ,#salary-subject
+{
+    color: white;
+    font-size: 1.2vw;
+    text-shadow: none;
+    font-family: monospace;
+}
+
+.txt{
+    background-color:red;
+    font-size:xx-small;
+    position: absolute;
+    padding:2px;
+    top: 5px;
+    left: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+#myRequest-badge
+{
+    float: right; 
+    background-color: red; 
+    border-radius: 50%; 
+    width: 25px; 
+    height: 25px; 
+    text-align: center;
+    border: 1px solid white;
+    font-size: 1vw;
+}

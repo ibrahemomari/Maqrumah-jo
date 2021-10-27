@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/materia/bootstrap.min.css">
+
+
+  <!-- Custom styles for this template -->
+  <link href="../../css/admin.css" rel="stylesheet">
+  <link href="../../css/ADMIN_shared_style.css" rel="stylesheet">
+  
+</head>
+<title>Admin portal</title>
+
+<body >
+ 
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="slider-border " id="sidebar-wrapper">
+      <div class="sidebar-heading">
+        <h6 id="sidebar-adminName">Ibrahem alomari</h6>
+        <hr style="background-color: seashell;">
+        <h6>administrator</h6>
+      </div>
+      
+  
+   
+  
+        <div class="slider-contianer">
+          <div class="list-group list-group-flush">
+        
+            <a href="ADMIN_account_setting.html" class="list-group-item list-group-item-action" id="slider-item">Account Settings</a>
+            <a href="#" class="list-group-item list-group-item-action dropdown" id="slider-item" >Services</a>
+            <div class="dropdown-container">
+            <a href="ADMIN_payroll.html" class="list-group-item list-group-item-action" id="ser-item">payroll</a>
+            <a href="ADMIN_students.html" class="list-group-item list-group-item-action" id="ser-item">Students</a>
+            <a href="ADMIN_cach_out_request.html" class="list-group-item list-group-item-action" id="ser-item">Cash out requests</a>
+            <a href="ADMIN_clearance_request.html" class="list-group-item list-group-item-action" id="ser-item">Clearance request</a>
+           
+            </div>
+            <a href="#" class="list-group-item list-group-item-action dropdown" id="slider-item" >Tools</a>
+            <div class="dropdown-container">
+            <a href="ADMIN_mailBox.html" class="list-group-item list-group-item-action" id="tool-item">Mail Box</a>
+            <a href="ADMIN_calendar.html" class="list-group-item list-group-item-action" id="tool-item">calender</a>
+            <a href="ADMIN_to_do_list.html" class="list-group-item list-group-item-action" id="tool-item">To do list</a>
+            </div>
+          
+            
+                   
+                     <div class="clock">
+                       <a><span class="badge hours"></span></a> :
+                       <a><span class="badge min"></span></a> :
+                       <a><span class="badge sec"></span></a>
+                   </div>
+                
+               
+            
+          </div>
+          
+       </div>
+       
+    </div>
+    
+    <!-- /#sidebar-wrapper -->
+
+
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-light navbar-toggler-icon" id="menu-toggle"></button><h6 id="nav-admin-name" class="lead d-none d-sm-block">ibrahem alomari</h6>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse nv-con" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <div class="email-contianer">  
+            <li class="nav-item ">
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="false" id="email-notification-icon">
+                      <i class="fa fa-envelope"></i>
+                      <div class="badge badge-danger navbar-badge" id="email-count">3</div>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right" style="left: inherit; right: 0px; " id="email-notification">
+                      
+                   
+                      
+
+                      
+                     
+                      
+                    </div>
+                    
+                  </li>
+                  
+            </li>
+                </div>
+                
+                
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown " href="../../pages/control/sign_in_admin.html" >
+                <i class="fa fa-sign-out-alt" aria-hidden="true" data-toggle="tooltip" title="EXIT !" ></i>
+              </a>
+              
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+      <!------------------  contant contianer----------------------->
+      
+      
+  <!-- /#wrapper -->
+
+        <div class="container " id="admin-profile">
+          <div id="info-desk" class="row info-desk-body" >
+            <div class="col-md-6  bg">
+              <div class="info-desk-user-count   ">
+                <h6><i class="fa fa-user" aria-hidden="true"></i> Total Students</h6>
+                <h2 id="total-students">4,000</h2>
+                
+            </div>
+            </div>
+
+            <div class="col-md-6 bg">
+              <div class="info-desk-request-count ">
+                <h6><i class="fa fa-bullhorn" aria-hidden="true"></i> Total Requests</h6>
+                <h2 id="total-request">4,000</h2>
+                
+            </div>
+
+            </div>
+
+         
+          
+          </div>
+          <div class="row">
+            <hr style="width: 800px; background-color: rgb(77, 74, 74); height: 2px; opacity: 20%;">
+          </div>
+        </div>
+        <div id="card-section" class="p-5 mb-4" >
+        <div class="row">
+          
+          <div class="col-md-3" id="card1">
+            <a href="ADMIN_account_setting.html">
+            <div class="card">
+              
+              <div class="card-body">
+                
+
+              </div>
+              <div class="card-footer">
+                <span>
+                  ACCOUNT SETTING
+                </span>
+
+              </div>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-md-3" id="card2">
+            <a href="ADMIN_payroll.html">
+            <div class="card">
+              
+              <div class="card-body">
+
+              </div>
+              <div class="card-footer">
+                <span>
+                  PAYROLL
+                </span>
+              </div>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-md-3" id="card3">
+            <a href="ADMIN_mailBox.html">
+            <div class="card">
+              
+              <div class="card-body">
+
+              </div>
+              <div class="card-footer">
+                <span>
+                  MAILBOX
+                </span>
+
+              </div>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-md-3" id="card4">
+            <a href="ADMIN_to_do_list.html">
+            <div class="card">
+              
+              <div class="card-body">
+
+              </div>
+              <div class="card-footer">
+                <span>
+                  TO-DO LIST
+                </span>
+
+              </div>
+            </div>
+          </a>
+          </div>
+          
+         
+        </div>
+      </div>
+
+
+
+
+
+
+        <div class="row">
+          <hr style="width: 800px; background-color: rgb(77, 74, 74); height: 2px; opacity: 20%;">
+        </div>
+
+          <div class="row p-2">
+            <div class="col-md-6">
+              <div id="accordion">
+                <div class="card">
+                  <div class="card-header " id="headingOne">
+                    Requests
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"  aria-expanded="true" aria-controls="collapseOne" id="btn-min">
+                        <i class="fa fa-plus-square " aria-hidden="true" id="plus"></i>
+                        
+                      </button>
+                      <button class="btn btn-link " data-toggle="collapse" data-target="#collapseOne"  aria-expanded="true" aria-controls="collapseOne" id="btn-min2">
+                        
+                        <i class="fa fa-minus-square" aria-hidden="true" id="min"></i>
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                      <table class="table table-hover text-nowrap" id="requests-table">
+                        <thead>
+                          <tr>
+                            <th>Student</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="card-footer ">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <a href="ADMIN_cach_out_request.html">
+                            <div class=" btn btn-secondary ">
+                                View All Cash Out Requests
+                            </div>
+                          </a>
+                        </div>
+                        
+                        <div class="col-md-6">
+                          <a href="ADMIN_clearance_request.html">
+                            <div class=" btn btn-secondary ">
+                                View All Clearance Requests
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      
+                     
+                    </div>
+                   
+                  
+                  </div>
+                
+                  </div>
+              </div>
+              
+            </div>
+            <div class="col-md-6">
+              <div id="accordion2">
+                <div class="card">
+                  <div class="card-header" id="headingTow">
+                    Students
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo"  aria-expanded="true" aria-controls="collapseTwo" id="btn-stu">
+                        <i class="fa fa-minus-square" aria-hidden="true" id="min2"></i>
+                
+                        
+                      </button>
+                      <button class="btn btn-link " data-toggle="collapse" data-target="#collapseTwo"  aria-expanded="true" aria-controls="collapseTwo" id="btn-stu2">
+                        <i class="fa fa-plus-square" aria-hidden="true" id="plus1"></i>
+                
+                      </button>
+                    </h5>
+                  </div>
+                
+                  <div id="collapseTwo" class="collapse show" aria-labelledby="headingTow" data-parent="#accordion2">
+                    <div class="card-body">
+                      <table class="table table-hover text-nowrap" id="students-table">
+                        <thead>
+                          <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>University</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          
+                        </tbody>
+                      </table>
+                    </div>
+                    <a href="ADMIN_students.html">
+                    <div class="card-footer btn " >
+                        View All Students
+                    </div>
+                  </a>
+                  </div>
+                
+                  </div>
+                </div>
+                
+                
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="../../js/clock.js"></script>
+    <script src="../../js/admin.js"></script>
+    <script src="../../js/ADMIN_shared_Script.js"></script>
+    <script src="../../js_tools/notify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+
+</html>

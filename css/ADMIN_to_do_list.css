@@ -1,0 +1,152 @@
+#to-do-list h1
+{
+    margin-top: 20px;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.356);
+    
+}
+
+#top-form
+{
+    
+    background-color: rgba(211, 211, 211, 0.349);
+    width: 50%;
+    margin: auto;
+    height: 200px;
+    border-radius: 90px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 2px rgb(124, 123, 123);
+
+}
+#top-form input
+{
+    text-align: center;
+    width: 100%;
+    
+    
+}
+#top-form button
+{
+    display: block;
+    margin: auto;
+    margin-top: 55px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bolder;
+    
+}
+form {
+    display: inline-block;
+    margin-top: 50px;
+    
+}
+#bottom-form
+{
+    background-color: rgba(211, 211, 211, 0.349);
+    width: 50%;
+    margin: auto;
+    height: 200px;
+    border-radius: 20px;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 5px 2px rgb(124, 123, 123);
+    padding: 20px;
+}
+
+
+
+.form-group {
+    text-align: center;
+    padding-bottom: 25px;
+}
+#todo {
+    
+    width: 500px;
+    margin-bottom: 5px;
+    
+}
+#todo li
+{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.check
+{
+    text-decoration: line-through;
+}
+#todo li:hover
+{
+    background-color: rgba(182, 182, 182, 0.425);
+    transform: scale(1.02);
+   
+}
+#bottom-form ul a:hover
+{
+    box-shadow: 0 0 8px red;
+}
+li:hover > a
+{
+   
+    animation: bounce-in-right 1.1s both;
+}
+@keyframes bounce-in-right {
+    0%,
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateY(-4px);
+              transform: translateY(-4px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateY(4px);
+              transform: translateY(4px);
+    }
+    80% {
+      -webkit-transform: translateY(3.4px);
+              transform: translateY(3.4px);
+    }
+    90% {
+      -webkit-transform: translateY(-3.4px);
+              transform: translateY(-3.4px);
+    }
+  }
+  
+
+
+#bottom-form ul a
+{
+    background-color: red;
+    border: 1px solid rgb(107, 2, 2);
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    overflow: hidden;
+  
+    
+}
+
+#back-arrow
+{
+    font-size: 22px;
+    color: white;
+    text-shadow: 0 0 8px black;
+}
+#back-arrow:hover
+{
+    font-size: 23px;
+    color: rgb(4, 39, 49);
+    text-shadow: 0 0 8px rgb(255, 255, 255);
+}
+
+  

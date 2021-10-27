@@ -1,0 +1,220 @@
+body
+{
+        background: #ffffff;  
+        background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+       
+        
+}
+    
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(253, 0, 0, 0.521);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    z-index: -2;
+    
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+    
+}
+
+
+.circles li:nth-child(2){
+    left: 5%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 4%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 6%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 50%;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+#sign-up-section
+{
+  margin: auto;
+}
+
+#sign-up-section .col-md-3 , #sign-up-section .col-md-4 ,#submit-btn
+{
+    margin: auto;
+}
+#sign-up-section #uni-input
+{
+    margin-left:40px ;
+}
+
+#sign-up-section .card-header
+{
+    width: 100%;
+    border-radius: 500px;
+    background-color: rgba(187, 187, 187, 0.082);
+    margin-bottom: 10px;
+}
+
+#sign-up-section #submit-btn
+{
+    width: 50%;
+    
+}
+
+#sign-up-section
+{
+    box-shadow: 0 0 12px black;
+    margin: 20px auto;
+    border-radius: 100px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.959);
+    z-index: 1;
+
+}
+
+
+#submit-btn:disabled
+{
+ 
+    background: #dddddd;
+    
+}
+
+
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 992px) {
+    #sign-up-section #uni-input
+    {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #sign-up-section #uni-input
+    {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    #sign-up-section #uni-input
+    {
+        margin-left: auto;
+    }
+}
+
+
+
+.borderSuccess
+{
+    box-shadow: 0 0 4px rgb(5, 197, 5);
+}
+
+.borderError
+{
+    box-shadow: 0 0 4px rgb(197, 5, 5);
+}
+
+#pass_instructions
+{
+    background-color: rgb(99, 4, 4);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid red;
+}

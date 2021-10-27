@@ -1,0 +1,133 @@
+body
+{
+    animation: fadein 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+   
+}
+
+@keyframes fadein {
+  0% {
+    
+    opacity: 5%;
+  }
+  20%
+  {
+    
+    opacity: 15%;
+  }
+  50%
+  {
+    
+    opacity: 50%;
+  }
+  100% {
+    
+    opacity: 100%;
+  }
+}
+
+.accaount-setting .row
+{
+ 
+  padding: 10px;
+}
+.slide_user_name a
+{
+    color: wheat;
+    
+    
+
+}
+.sidebar-heading i:hover
+{
+    color: white;
+    width: 10px;
+
+
+}
+#contant-box
+{
+    border: 2px solid rgba(119, 114, 114, 0.432);
+   
+    margin: 10px 20px;
+    border-radius: 20px;
+}
+
+#box-lable
+{
+    margin:10px 50px;
+    font-size: 20px;
+    font-style: oblique;
+    color: slategray;
+}
+.contant-form
+{
+    margin: 10px 10px;
+}
+.contant-bar
+{
+    border: 1px dashed rgba(172, 172, 172, 0.438);
+    width: 70%;
+    margin:10px auto;
+}
+#btn-change-pass
+{
+    margin-left: 30px;
+    
+
+}
+#btn-change-email , #btn-change-phone , #btn-save-email , #btn-save-phone ,#btn-cancel-email,#btn-cancel-phone
+{
+    margin-top: 1px;
+    border: none;
+    
+}
+#btn-save-email , #btn-save-phone 
+{
+    margin-left:70px;
+    visibility: hidden;
+}
+#btn-cancel-email,#btn-cancel-phone
+{
+    visibility: hidden;
+}
+
+
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 992px) {
+    .accaount-setting
+    {
+        width: 360px;
+    }
+    #changePass
+    {
+        width: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .accaount-setting
+    {
+        width: 360px;
+    }
+    #changePass
+    {
+        width: 350px;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .accaount-setting
+    {
+        width: 360px;
+    }
+    #changePass
+    {
+        width: 350px;
+    }
+}
+
+

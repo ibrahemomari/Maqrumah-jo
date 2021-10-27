@@ -1,0 +1,236 @@
+body {
+    margin-top: 105px; 
+    
+}
+  
+#logo
+{
+   height: 50px;
+}
+  .navbar {
+    box-shadow: 2px 2px 5px #a63232;
+    opacity: 0.9;
+    background: #fff; }
+    .navbar .nav-item {
+      font-size: 1.4rem;
+      padding-right: 1.4rem; }
+  
+  #showcase {
+    position: relative;
+    background: url("../index_img/color3.jpg");
+    min-height: 600px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+    #showcase .primary-overlay {
+      background: rgba(166, 50, 50, 0.8);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+
+      #showcase h1
+      {
+        font-size: 50px;
+      }
+      #showcase:hover h1
+      {
+        text-shadow: 0 0 12px white ;
+      }
+      #showcase p
+      {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: oblique;
+      }
+
+#newsletter 
+{
+    text-align: center;
+    font-family: fantasy;
+    background-color: rgb(53, 21, 21);
+    text-shadow: -3px 3px 6px rgba(247, 4, 4, 0.637);
+}
+#newsletter:hover 
+{
+    text-shadow: -3px 3px 6px rgb(247, 4, 4);
+}
+#about p
+{
+    font-size: 25px;
+}
+
+#boxes .card
+{
+    height: 200px;
+    border-radius: 50px;
+
+}
+#boxes .card:hover
+{
+    box-shadow: 0 0 8px red;
+
+}
+  .info-header {
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #ddd solid; }
+  
+  #authors img {
+    margin-top: -50px; }
+  #authors .card:hover {
+    background: #3292a6;
+    color: #fff; }
+  #authors .fab {
+    color: #fff; }
+  
+  @media (max-width: 768px) {
+    #showcase {
+      min-height: 500px; }
+      #showcase h1 {
+        font-size: 2rem; }
+  
+    .mb-resp {
+      margin-bottom: 1rem; } }
+  
+
+
+
+  #contact
+  {
+    background-color: #7a0018;
+    background-image: url("../pages/control/img/flowers.png");
+animation: gradient 190s ease infinite;
+}
+
+
+  
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+      /*==================================================================
+[ Button show form ]*/
+
+.contact100-btn-show {
+    color: #fff;
+    z-index: -1;
+    margin-left: 500px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+  }
+  .contact100-btn-show:hover
+  {
+      box-shadow: 0 0 20px white;
+      text-decoration: none;
+      color: white;
+  } 
+  
+  .contact100-btn-show::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    background-color: #ff4b5a;
+    border-radius: 50%;
+   
+    top: 0;
+    left: 0;
+    
+    box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+    -moz-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+    -webkit-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+    -o-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+    -ms-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+  
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  
+    -webkit-animation: beatbtn 0.9s ease-in-out infinite;
+    animation: beatbtn 0.9s ease-in-out infinite;
+  }
+  
+  
+  @keyframes beatbtn {
+    0% {
+      background-color: rgba(255, 75, 90, 1);
+      transform-origin: center;
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    50% {
+      background-color: rgba(255, 75, 90, 0.8);
+      transform-origin: center;
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+  #social-section 
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .social_media_icon_groub img
+  {
+    width: 30px;
+    
+  }
+  /*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 992px) {
+    .contact100-btn-show {
+      margin-left: 250px;
+      margin-top: 70px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contact100-btn-show{
+        margin-left: 250px;
+        margin-top: 70px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .contact100-btn-show {
+        margin-left: 250px;
+        margin-top: 70px;
+    }
+  }
+  

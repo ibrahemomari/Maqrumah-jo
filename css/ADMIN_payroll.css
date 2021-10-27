@@ -1,0 +1,136 @@
+#back-arrow
+{
+    font-size: 22px;
+    color: white;
+    text-shadow: 0 0 8px black;
+}
+#back-arrow:hover
+{
+    font-size: 23px;
+    color: rgb(4, 39, 49);
+    text-shadow: 0 0 8px rgb(255, 255, 255);
+}
+
+
+#payroll-section .row
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#payroll-section .row:nth-child(3)
+{
+    border-top: 2px dashed rgba(255, 0, 0, 0.11);
+    
+}
+
+#payroll-section .row:nth-child(4) span
+{
+    font-size: 2vw;
+    text-shadow: 2px 2px 5px rgba(97, 4, 4, 0.986);
+    color: rgb(0, 0, 0);
+}
+
+.card-header 
+{
+    text-align: center;
+}
+.card-header button
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-shadow: 0 0 2px  rgb(150, 4, 4);
+    color: rgb(46, 5, 5);
+    
+}
+.card-header button:hover
+{
+    text-decoration: unset;
+   transform: scale(1.1);
+    text-shadow: 0 0 2px  rgb(255, 0, 0);
+    color: rgb(46, 5, 5);
+
+}
+.card-header button:active
+{
+    color: red;
+}
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 992px) {
+    #payroll-section 
+    {
+        width: 60%;
+    }
+    .card-header button
+    {
+        font-size: 10px;
+    }
+ 
+}
+
+@media (max-width: 768px) {
+    #payroll-section 
+    {
+        width: 60%;
+    }
+    .card-header button
+    {
+        font-size: 10px;
+    }
+ 
+ 
+}
+
+@media (max-width: 576px) {
+    #payroll-section 
+    {
+        width: 60%;
+    }
+    .card-header button
+    {
+        font-size: 10px;
+    }
+  
+}
+
+
+
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+  }}
+  
+  

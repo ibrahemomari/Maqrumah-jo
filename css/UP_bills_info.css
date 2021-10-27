@@ -1,0 +1,100 @@
+body
+{
+    padding: 50px;
+   
+}
+
+.contianer
+{
+    border: 1px solid black;
+    width: 80%;
+    padding: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.row
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.contianer .row:nth-child(1)
+{
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+.contianer .row:nth-child(2) div
+{
+   border: 1px dashed black;
+    width: 30%;
+    height: 1px;
+}  
+.contianer .row:nth-child(3)
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.contianer .row:nth-child(4)
+{
+    border: 1px solid black;
+}
+
+.contianer table
+{
+    border: 2px solid black;
+}
+.contianer .row:nth-child(8)
+{
+    text-decoration: underline;
+}
+
+.print
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.print a
+{
+    width: 200px;
+}
+
+
+
+
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+  }}
+  
+  

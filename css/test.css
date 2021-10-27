@@ -1,0 +1,221 @@
+#back-arrow
+{
+    font-size: 22px;
+    color: white;
+    text-shadow: 0 0 8px black;
+}
+#back-arrow:hover
+{
+    font-size: 23px;
+    color: rgb(4, 39, 49);
+    text-shadow: 0 0 8px rgb(255, 255, 255);
+}
+
+#mailBox-folder label
+{
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 8px;
+    
+    
+}
+#mailBox-folder i:hover
+{
+    text-shadow: 0 0 4px rgb(17, 0, 255);
+    transform: scale(1.3); 
+}
+#mailBox-folder i:active
+{
+    transform: scale(.9); 
+}
+#mailBox-folder .badge
+{
+    margin-top: 12px;
+    background-color: red;
+    color: white;
+}
+#mailBox-inbox ,#send-inbox , #trash-inbox
+{
+    position: absolute;
+    left: -29px;
+    top: 0px;
+    
+}
+.fade 
+{
+    animation: fade-in-fwd 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@keyframes fade-in-fwd {
+    0% {
+      -webkit-transform: translateZ(-80px);
+              transform: translateZ(-80px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+.mailBox-folder-active
+{
+    background-color: rgb(190, 7, 7);
+    color: white;
+    box-shadow: 0 0 4px rgb(190, 7, 7) ;
+}
+#mailBox-inbox-body .card-header
+{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+#act
+{
+    background-color: blue;
+}
+#search-mail ,#search-mail2,#search-mail3
+{
+    text-align: center;
+    width: 15%;
+    margin: auto;
+    height: 5px;
+    
+    
+}
+
+#search-mail:focus ,#search-mail2:focus ,#search-mail3:focus 
+{
+    inset-inline: unset;
+    
+    border-radius: 50px;
+    box-shadow: 0 0 4px black;
+    animation: border_ani 1s ease-in-out forwards;
+}
+
+#mailBox-inbox .mailbox-controls ,#send-inbox .mailbox-controls ,#trash-inbox .mailbox-controls
+{
+    margin: 10px;
+    
+}
+#mailBox-inbox .mailbox-controls button:hover , #send-inbox .mailbox-controls button:hover ,#trash-inbox .mailbox-controls button:hover
+{
+    background-color: rgb(116, 211, 228);
+    transform: scale(1.2); 
+}
+#mailBox-table ,#send-table ,#trash-table 
+{
+    width:700px;
+}
+#mailBox-table th ,#send-table th ,#trash-table th
+{
+    background-color: rgb(95, 95, 95);
+    color: white;
+    text-align: center;
+}
+#mailBox-table a , #send-table a ,#trash-table a
+{
+    color:rgb(18, 133, 7);
+    font-weight: bolder;
+    
+}
+
+
+#new-mail{
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 0 2em;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    height: 45px;
+ 
+  }
+  @media (min-width: 600px) {
+    #new-mail{
+      margin: 0 1em 2em;
+    }
+  }
+  #new-mail:hover {
+    text-decoration: none;
+    
+    background: #e02c26;
+    font-weight: 800;
+
+  }
+  
+  .btn-1 {
+    background: #e02c26;
+    font-weight: 100;
+  }
+  .btn-1 svg {
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+  }
+  .btn-1 rect {
+    fill: none;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 5;
+    stroke-dasharray: 422, 0;
+    -webkit-transition: all 0.35s linear;
+    transition: all 0.35s linear;
+  
+    
+  }
+  
+  .btn-1:hover {
+    background: rgba(225, 51, 45, 0);
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+  .btn-1:hover rect {
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    -webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  
+
+
+
+@keyframes border_ani
+{
+    0%
+    {
+        width: 15%;
+        
+    }
+    100%
+    {
+        width: 95%;
+        
+        box-shadow: 0 0 4px black;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+}
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 992px) {
+ 
+}
+
+@media (max-width: 768px) {
+ 
+ 
+}
+
+@media (max-width: 576px) {
+  
+}

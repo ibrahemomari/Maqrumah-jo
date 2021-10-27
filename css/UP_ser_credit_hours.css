@@ -1,0 +1,27 @@
+#contant-box
+{
+    padding: 40px;
+}
+
+#credit-hours-table
+{
+   
+    border: 3px solid rgba(114, 114, 114, 0.719);
+    box-shadow: 0 0 10px rgba(59, 58, 58, 0.5);
+    
+}
+#credit-hours-table th
+{
+    color: rgb(251, 255, 255);
+    text-shadow: 0 0 8px black;
+    border: 3px solid  rgba(114, 114, 114, 0.719);
+}
+#credit-hours-table td
+{
+    border: 3px solid  rgba(114, 114, 114, 0.719);
+}
+
+#credit-hours-table #remaining-hours
+{
+    color: green;
+}

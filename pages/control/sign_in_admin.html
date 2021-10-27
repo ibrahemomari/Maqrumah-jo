@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+   
+
+  <link rel="stylesheet" href="../../css/sign_in_admin.css">
+  <link rel="stylesheet" href="../../css/index_style.css">
+  <title>Admin login</title>
+</head>
+
+
+<body class="hold-transition login-page">
+
+  <section class="Top-section" >
+    <nav class="navbar navbar-expand-sm  navbar-dark " id="top-navbar">
+        <div class="container">
+            <!-- search filed-->
+            <span class="top-search-lable">Search In Website</span> 
+            <form action="" class="form inline ml-3">
+                <div class="input-group input-group-sm">
+                    <input type="search" class="form-control form-control-navbar" placeholder="Search" aria-label="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn-navbar" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="../../index.html" class="nav-link"><i class="fas fa-home"></i>Home</a>
+              </li>
+              <li class="nav-item dropdown active">
+                <a href="" class="nav-link " data-toggle="dropdown"> <i class="fas fa-user"></i> Sign in &DownArrow;</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item " href="sign_in_users.html"><i class="fas fa-sign-in-alt"></i> As user</a>
+                    <a class="dropdown-item  active" href="sign_in_admin.html"><i class="fas fa-sign-in-alt"></i> As admin</a>
+                    
+                    
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="sign_up.html" class="nav-link"><i class="fas fa-user-plus"></i> Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+</section>
+
+
+<!-------------------------- LOG IN --------------------------------------->
+
+<div class="area" >
+  <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+  </ul>
+</div >
+
+  <div class="container" id="login-section">
+    <div class="row">
+      <p class="box-title">Admin portal</p>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-9">
+      <div class="login-box">
+        <div class="card">
+          <div class="card-body login-card-body">
+            <div class="card-header">
+              <p class="login-box-msg">Sign in</p><br>
+            </div>
+            
+            
+            <form action="#" method="post" id="quickForm" role="form" class="was-validated" onsubmit="return false;">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-9">
+                    <div class="input-group mb-3">
+                
+                      <input type="email" class="form-control" placeholder="Email or National (ID) number" id="email" required>
+                      
+                      <div class="input-group-append">
+                        <div class="input-group-text">
+                          <span class="fas fa-envelope"></span>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+             
+            </div>
+              <br>
+              <div class="row">
+                <div class="col-md-9">
+                  <div class="input-group mb-3">
+                    <input type="password" name="password" class="form-control"  id="password" placeholder="Password"    required>
+                    
+                    <div class="input-group-append">
+                      <div class="input-group-text">
+                        <span class="fas fa-lock"></span>
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div id="error"></div>
+              </div>
+           
+              <br>
+             
+              <div class="row" >
+              
+                <!-- /.col -->
+                <div class="col-md-4">
+                  <button type="submit" class="btn btn-outline-light  btn-block " id="login-btn">Sign In</button>
+                </div>
+                <!-- /.col -->
+              </div>
+              <div class="row" id="waiting">
+                <img src="../control/img/spinner.gif" alt="">
+              </div>
+              <div class="row">
+                
+               
+                
+              </div>
+            </div>
+            </form>
+            
+      <br>
+            <div class="row">
+              <div class="col-md-4" >
+                <p class="mb-1">
+                  <a href="forget_password.html" class="text-warning">I forgot my password</a>
+                </p>
+              
+              </div>
+              <div class="col-md-4"></div>
+              <div class="col-md-4 ">
+                <div class="icheck-primary">
+                  <input type="checkbox" id="remember">
+                  <label for="remember"  class="text-white">
+                    Remember Me
+                  </label>
+                </div>
+              </div>
+            </div>
+      
+           
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+
+  
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="../../index_img/logo.png" alt="" class="mt-5 mb-2">
+        </div>
+        <div class="col-md-4">
+          <h6>contact info:</h6>
+          <span>Email : example@example.com</span><br>
+          <span>fax : example@example.com</span><br>
+          <span>phone : +(962)-0000-00000</span> <br>
+          <span>---------------------------------</span><br><br>
+          <p>Copyright &copy;
+            <span id="year"></span> project name</p>
+          </div>
+          <div class="col-md-4">
+            <div class="social_media_icon_groub ">
+              <a href="https://web.facebook.com/" target="_blank">
+                <img src="../../index_img/facebook.png" data-toggle="tooltip"  title="facebook" class="facebook"> 
+              </a>
+              <a href="https://twitter.com/" target="_blank">
+                <img src="../../index_img/twitter.png" data-toggle="tooltip"  title="twitter" class="twitter">
+              </a>
+              <a href="https://www.youtube.com/" target="_blank" >
+                <img src="../../index_img/youtube.png" data-toggle="tooltip"  title="youtube" class="youtube">
+              </a>
+              <a href="https://web.whatsapp.com/" target="_blank" >
+                <img src="../../index_img/whatsapp.png" data-toggle="tooltip"  title="whatsapp" class="whatsapp">
+              </a>
+            </div>
+            
+      </div>
+      </div>
+      </div>
+    
+  </footer>
+
+  
+
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+<script src="../../js/sign_in_admin.js"></script>
+<script src="../../js_tools/notify.js"></script>
+<script src="../../js_tools/notify.min.js"></script>
+
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+  </script>
+</body>
+</html>

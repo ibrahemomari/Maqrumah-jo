@@ -1,0 +1,60 @@
+#email-notification
+{
+    padding: 10px;
+}
+
+#email-notification .card
+{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+}
+
+#email-notification .card-header
+{
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: white;
+    padding: 0vw;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+#email-notification .card-body
+{
+    font-size: 10px;
+    padding: 0vw;
+    padding-left: 10px;
+    font-weight: bold;
+    color: rgb(141, 72, 72);
+}
+
+#email-notification .card-footer
+{
+    background-color: white;
+    font-size: 10px;
+    padding: 0vw;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+#email-notification .card:last-child
+{
+    
+    background-color: rgb(201, 201, 201);
+    margin-bottom: 0vw;
+    text-decoration: none;
+    
+    
+}
+#email-notification .card:last-child:hover
+{
+    box-shadow: 0 0 10px rgb(215, 252, 4);
+    background-color: rgba(5, 184, 5, 0.445);
+}
+#email-notification .card:last-child:active
+{
+    transform: scale(0.9);
+}

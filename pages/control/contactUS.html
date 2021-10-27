@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact Us</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/index_style.css">
+  <link rel="stylesheet" href="../../css/contactUS.css">
+</head>
+<body>
+    <a href="../../index.html" id="back"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i>Back To Home</a>
+
+<div class="container">
+    <form class="contact100-form validate-form">
+        <span class="contact100-form-title" id="test">
+            Contact Us
+        </span>
+
+        <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Name is required">
+            <span class="label-input100">Your Name</span>
+            <input class="input100" type="text" name="name" placeholder="Enter your name" id="name">
+            <span class="focus-input100"></span>
+        </div>
+
+        <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+            <span class="label-input100">Email</span>
+            <input class="input100" type="text" name="email" placeholder="Enter your email addess" id="email">
+            <span class="focus-input100"></span>
+        </div>
+
+        <div class="wrap-input100 validate-input" data-validate = "Message is required">
+            <span class="label-input100">Message</span>
+            <textarea class="input100" name="message" placeholder="Your message here..." id="message"></textarea>
+            <span class="focus-input100"></span>
+        </div>
+
+        <div class="container-contact100-form-btn"  >
+            <button class="contact100-form-btn" id="btn-submit" type="button" >
+                <span>
+                    Submit
+                    <i class="fa fa-arrow-circle-right m-l-7" aria-hidden="true"></i>
+                </span>
+            </button>
+        </div>
+    </form>
+</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--===============================================================================================-->
+    <script src="../../js/contactUS.js"></script>
+    <script src="../../js_tools/notify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>

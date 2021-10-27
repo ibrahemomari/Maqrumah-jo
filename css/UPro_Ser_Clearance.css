@@ -1,0 +1,59 @@
+body
+{
+    overflow: hidden;
+}
+
+#clearance-section
+{
+    box-shadow: 0 0 10px 2px black inset;
+    border-radius: 20px;
+    height: 400px;
+    margin-top: 50px;
+}
+#clearance-section .row 
+{
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 10px;
+    
+}
+
+#clearance-section .header-text
+{
+   
+    margin:50px auto;
+    
+    font-style: oblique;
+    text-shadow: 0 0 4px wheat;
+    font-size: 1.7vw;
+}
+#clearance-section .lable-text
+{
+    
+    text-decoration: underline;
+    color: rgb(19, 27, 5);
+    text-decoration-color: rgba(128, 128, 128, 0.527);
+    font-weight: bold;
+}
+
+#clearance-section #btn-send
+{
+   
+   
+    background-color: rgb(192, 6, 177);
+    color: white;
+    box-shadow: 0 0 4px rgba(182, 7, 109, 0.685);
+    cursor: pointer;
+
+}
+#clearance-section #btn-send:hover
+{
+    background-color: rgb(126, 4, 126);
+    
+    
+}
+#btn-send:focus
+{
+    background-color:rgb(83, 2, 83);
+}

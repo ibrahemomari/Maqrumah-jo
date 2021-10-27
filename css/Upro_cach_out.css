@@ -1,0 +1,130 @@
+
+
+
+#cach-out-section 
+{
+    box-shadow: 0 0 10px 2px black inset;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px;
+ 
+}
+
+
+
+#cach-out-section .row
+{
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 10px;
+}
+
+
+#cach-out-section .row:nth-child(1) ,#cach-out-section .row:nth-child(2) ,#cach-out-section .row:nth-child(3),#cach-out-section .row:nth-child(4)
+{
+    font-style: oblique;
+    text-shadow: 0 0 4px wheat;
+    font-size: 1.7vw;
+}
+#cach-out-section .row:nth-child(1) 
+{
+    text-decoration: underline;
+    
+}
+#cach-out-section .row:nth-child(3) #cach
+{
+    color: rgb(6, 158, 51);
+    text-shadow: 0 0 4px rgb(105, 103, 103);
+    font-size: 3vw;
+} 
+
+#cach-out-section .row:nth-child(4)
+{
+    margin-top: 30px;
+    border-top: 3px solid rgba(167, 164, 164, 0.336);
+    border-radius: 50px;
+   
+}
+
+#cach-out-section form
+{
+    box-shadow: 0 0 10px 2px black ;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+#cach-out-section form label
+{
+    font-size: 1.5vw;
+
+    font-weight: lighter;
+}
+#form-section
+{
+    height: 500px;
+    margin-top: 50px;
+    padding: 20px;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+ 
+}
+#method-body , #method-body2 ,#method-body3
+{
+    border: 2px dashed rgba(87, 87, 87, 0.253);
+    padding: 50px;
+    border-radius: 20px;
+    position: absolute;
+    width: 800px;
+   
+    
+}
+
+#method-body .row , #method-body2 .row ,#method-body3 .row
+{
+    margin-bottom: 20px;
+   
+}
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 992px) {
+    #method-body , #method-body2 ,#method-body3
+    {
+        width: 320px;
+    }
+
+    #form-section
+    {
+        height: 800px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    #method-body , #method-body2 ,#method-body3
+    {
+        width: 320px;
+    }
+
+    #form-section
+    {
+        height: 800px;
+       
+    }
+}
+
+@media (max-width: 576px) {
+    #method-body , #method-body2 ,#method-body3
+    {
+        width: 320px;
+    }
+
+    #form-section
+    {
+        height: 800px;
+
+    }
+}
